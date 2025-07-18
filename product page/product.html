@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online shopping</title>
+    <!-- styleling -->
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- silck libariry -->
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- Slick Carousel JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <!-- /???? -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+
+    <!-- Splide CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css">
+
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+
+
+
+</head>
+
+
+
+
+<!-- product page -->
+
+<body>
+
+
+
+
+    <!-- nav section -->
+
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navBar">
+            <a class=" navbarLogo" href="#">MHA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav navItem ">
+                    <li class="nav-item ">
+                        <a class="nav-link" href=" /redirect home page/redirect hom.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/Shop Page/shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Products</a>
+                    </li>
+
+
+                    <!-- icons -->
+                    <div class="naVicons">
+                        <li class="nav-item">
+                            <a class="nav-link me-0" href="#"><img src="/images/serach icon.png" alt=""></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-0" href="#"><img src="/images/profile icon.png" alt=""></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-0" href="#"><img src="/images/star icon.png" alt=""></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-0" href="#"><img src="/images/product icon.png" alt=""></a>
+                        </li>
+                    </div>
+
+
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li> -->
+                </ul>
+                <form class="form-inline ">
+
+                    <a class="SignUp_btn  " href="/home page/index.html" type="button">Log Out</a>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+
+    <!--  header section-->
+
+    <div class="headerSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="img-fluid headerimage" src="/images/Shop product image 1.png" alt="">
+                </div>
+                <div class="col-md-7">
+                    <main class=" container-custom my-4" style="max-width: 520px;">
+                        <section class="product-section">
+                            <h6 class="headerMHA mb-1">MHA</h6>
+                            <h2 class="headerName">Denim Jacket</h2>
+                            <div class="star-rating d-flex align-items-center gap-1 mb-2"
+                                aria-label="4 out of 5 stars rating, 3 reviews">
+                                <span class="material-icons" aria-hidden="true">star</span>
+                                <span class="material-icons" aria-hidden="true">star</span>
+                                <span class="material-icons" aria-hidden="true">star</span>
+                                <span class="material-icons" aria-hidden="true">star_half</span>
+                                <span class="material-icons" aria-hidden="true">star_border</span>
+                                <small class="text-muted">(3)</small>
+                            </div>
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <div class="headerprice1">$39.00</div>
+                                <div class="headerprice2">$69.00</div>
+                                <span class="headerprice3">Save 33%</span>
+                            </div>
+                            <div class="viewing-count mb-3 d-flex align-items-center gap-2">
+                                <span class="material-icons" aria-hidden="true"
+                                    style="font-size:18px; color: black;">visibility</span>
+                                24 people are viewing this right now
+                            </div>
+                            <div class="alert-sale" role="alert">
+                                <strong>Hurry up! Sale ends in:</strong>
+                                <span class="timer" id="countdown-timer" aria-live="polite" aria-atomic="true">00 : 05 :
+                                    59 : 47</span>
+                            </div>
+
+                            <div class="stock-text mb-2">Only <span class=" stock-text2">9 item(s)</span> left in
+                                stock!</div>
+                            <div class="progress-stock" aria-label="Stock availability progress">
+                                <div class="progress-stock-bar" style="width: 20%;" role="progressbar" aria-valuemin="0"
+                                    aria-valuemax="100" aria-valuenow="20"></div>
+                            </div>
+
+                            <div class="mb-3">
+                                <div class="fw1 mb-2">Size: <span class="fw2">M</span></div>
+                                <div class="size-btns" role="radiogroup" aria-label="Available sizes">
+                                    <button type="button" class="btn btn-outline-dark selected" aria-pressed="true"
+                                        aria-label="Size M selected">M</button>
+                                    <button type="button" class="btn btn-outline-dark" aria-pressed="false"
+                                        aria-label="Size L">L</button>
+                                    <button type="button" class="btn btn-outline-dark" aria-pressed="false"
+                                        aria-label="Size XL">XL</button>
+                                    <button type="button" class="btn btn-outline-dark" aria-pressed="false"
+                                        aria-label="Size XXL">XXL</button>
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <div class="fw1 mb-2">Color: <span class="fw2">Blue</span></div>
+                                <form class="d-flex align-items-center" role="radiogroup" aria-label="Available colors">
+                                    <label class="color-choice" for="color-blue">
+                                        <input type="radio" name="color" id="color-blue" checked aria-checked="true" />
+                                        <span class="color-circle color-blue" title="Blue color"></span>
+                                    </label>
+                                    <label class="color-choice" for="color-black">
+                                        <input type="radio" name="color" id="color-black" aria-checked="false" />
+                                        <span class="color-circle color-black" title="Black color"></span>
+                                    </label>
+                                    <label class="color-choice" for="color-pink">
+                                        <input type="radio" name="color" id="color-pink" aria-checked="false" />
+                                        <span class="color-circle color-pink" title="Pink color"></span>
+                                    </label>
+                                </form>
+                            </div>
+
+
+                            <h1 class="quantity">Quantity</h1>
+                            <div class="d-flex  gap-3 mb-4 quantity-selector" aria-label="Quantity selector">
+                                <button class="" type="" id="qty-minus" aria-label="Decrease quantity">−</button>
+                                <input type="" id="qty-input" min="1" max="100" value="1" aria-live="polite"
+                                    aria-atomic="true" />
+                                <button class="b1" type="" id="qty-plus" aria-label="Increase quantity">+</button>
+
+                            </div>
+
+                            <!-- mudal start -->
+                            <main class="py-5 text-center">
+                                <button class="btn btn-primary px-4 py-3" data-bs-toggle="modal"
+                                    data-bs-target="#shoppingCartModal">
+                                    Open Shopping Cart
+                                    <span class="material-icons align-middle ms-2">shopping_cart</span>
+                                </button>
+                            </main>
+
+                            <!-- Shopping Cart Modal -->
+                            <div class="modal fade" id="shoppingCartModal" tabindex="-1"
+                                aria-labelledby="shoppingCartLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content shadow-sm">
+                                        <div class="modal-header px-0">
+                                            <h5 class="modal-title" id="shoppingCartLabel">Shopping Cart</h5>
+                                            <button type="button" class="close-btn" data-bs-dismiss="modal"
+                                                aria-label="Close">
+                                                <span class="material-icons">close</span>
+                                            </button>
+                                        </div>
+
+                                        <p class="promo-text mx-0 px-0">
+                                            Buy <strong>$122.35</strong> More And Get <strong>Free Shipping</strong>
+                                        </p>
+
+                                        <div class="d-flex gap-3 align-items-start">
+                                            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/aedf927b-86c0-4aed-9a88-705eab45c9e1.png"
+                                                alt="Denim jacket product image with red color" class="product-img"
+                                                loading="lazy" />
+                                            <div class="flex-grow-1 text-start">
+                                                <h6 class="mb-1">Denim Jacket</h6>
+                                                <p class="mb-1 text-muted">Color: Red</p>
+                                                <p class="mb-2 fw-semibold">$14.80</p>
+                                                <div class="quantity-control" role="group"
+                                                    aria-label="Quantity selector">
+                                                    <button type="button" aria-label="Decrease quantity"
+                                                        id="decreaseQty">−</button>
+                                                    <input type="number" id="quantityInput" min="1" max="99" value="1"
+                                                        aria-live="polite" aria-relevant="additions removals" />
+                                                    <button type="button" aria-label="Increase quantity"
+                                                        id="increaseQty">+</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <hr />
+
+                                        <div class="form-check wrap-checkbox">
+                                            <input class="form-check-input" type="checkbox" value="" id="wrapProduct" />
+                                            <label class="form-check-label" for="wrapProduct">
+                                                For $10.00 Please Wrap The Product
+                                            </label>
+                                        </div>
+
+                                        <div class="subtotal-row">
+                                            <span>Subtotal</span>
+                                            <span id="subtotalAmount">$14.80</span>
+                                        </div>
+
+                                        <button type="button" class="btn btn-checkout" id="checkoutBtn"
+                                            aria-label="Proceed to checkout">
+                                            Checkout
+                                        </button>
+
+                                        <a href="#" class="view-cart" id="viewCartLink">View Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- mudal End -->
+
+                            <div class="icon-links">
+                                <button type="button" aria-label="Compare product" title="Compare product">
+                                    <span class="material-icons">compare_arrows</span> Compare
+                                </button>
+                                <button type="button" aria-label="Ask a question" title="Ask a question">
+                                    <span class="material-icons">help_outline</span> Ask a question
+                                </button>
+                                <button type="button" aria-label="Share product" title="Share product">
+                                    <span class="material-icons">share</span> Share
+                                </button>
+                            </div>
+
+                            <div class="delivery-info">
+                                <span class="material-icons" aria-hidden="true">local_shipping</span>
+                                <div><strong>Estimated Delivery:</strong> Jul 30 - Aug 03</div>
+                            </div>
+                            <div class="shipping-info">
+                                <span class="material-icons" aria-hidden="true">local_mall</span>
+                                <div><strong>Free Shipping &amp; Returns:</strong> On all orders over $75</div>
+                            </div>
+
+                            <div class="payment-icons d-flex flex-wrap align-items-center">
+
+
+                                <img class="img-fluid" src="/images/payment.png" alt="PayPal logo" />
+                                <span class="
+                                ">Guarantee safe &amp; secure checkout</span>
+
+                            </div>
+
+
+                        </section>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- icons -->
+
+    <div class="icons">
+        <button class="iconsBtn1"><a href="#"><img class="img-fluid" src="/images/shop icon.png" alt=""></a></button>
+        <button class="iconsBtn2"><a href="#"> <img class="img-fluid" src="/images/upericon.png" alt=""></a></button>
+    </div>
+
+    <!-- icons End -->
+
+
+
+
+
+
+    <!-- new arrivals section -->
+
+
+
+    <!-- slider section -->
+
+    <div class="silderSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="/images/slider image.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="silderCol2">
+                        <div class="col2Line"></div>
+                        <div class="allTextCOl2">
+                            <h5 class="silderCol2Text1 ">Women Collection</h5>
+                            <h2 class="silderCol2Text2 ">Peaky Blinders</h2>
+                            <h6 class=" silderCol2Text3  mt-2  ">DESCRIPTION</h6>
+                            <p class="silderCol2paragarph mt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Scelerisque dui ultrices
+                                sollicitudin
+                                aliquam sem. Scelerisque dui ultrices sollicitudin.</p>
+                            <p class="silderCol2Size  ">Size: <strong class="M">M</strong></p>
+                            <h3 class="silderCol2Text4  ">$100.00</h3>
+                            <button class="silderCol2btn mt-1 ">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- features Section -->
+    <div class="featuresSection ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="featuresCol d-flex align-items-center">
+                        <img class="img-fluid" src="/images/icon High Quality.png" alt="">
+                        <div>
+                            <div class="featuresColtitle ">High Quality</div>
+                            <div class="featuresColsubtitle ">crafted from top materials</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="featuresCol d-flex align-items-center">
+                        <img class="img-fluid" src="/images/icon Warrany Protection.png" alt="">
+                        <div>
+                            <div class="featuresColtitle ">Warranty Protection</div>
+                            <div class="featuresColsubtitle ">Over 2 years</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="featuresCol d-flex align-items-center">
+                        <img class="img-fluid" src="/images/icon Free Shipping.png" alt="">
+                        <div>
+                            <div class="featuresColtitle ">Free Shipping</div>
+                            <div class="featuresColsubtitle ">Order over 150 $</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="featuresCol d-flex align-items-center">
+                        <img class="img-fluid" src="/images/icon Support.png" alt="">
+                        <div>
+                            <div class="featuresColtitle ">24 / 7 Support</div>
+                            <div class="featuresColsubtitle ">Dedicated support</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- Added this missing closing div -->
+    </div>
+
+
+    <!-- gallery section -->
+    <div class="gallerySection mt-5">
+        <div class="text-center">
+            <h1>Follow Us On Instagram</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque dui ultricies sollicitudin aliquam
+                sem. Scelerisque dui ultricies sollicitudin.</p>
+
+            <div class="image-gallery">
+                <img class="mt-5" src="/images/gallery 1.png" alt="Fashion Model 1">
+                <img src="/images/gallery 2.png" alt="Fashion Model 2">
+                <img class="mt-4" src="/images/gallery 3.png" alt="Fashion Model 3">
+                <img src="/images/gallery 4.png" alt="Fashion Model 4">
+                <img class="mt-4" src="/images/gallery 5.png" alt="Fashion Model 5">
+                <img src="/images/gallery 6.png" alt="Fashion Model 6">
+                <img class="mt-5" src="/images/gallery 7.png" alt="Fashion Model 7">
+            </div>
+        </div>
+    </div>
+
+    <!-- testimonials section -->
+
+
+    <!-- subscribe section -->
+
+    <section class="subscribeSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="/images/Subscribe image rigth.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center py-5">
+                        <h2 class="subscribeHeding">Subscribe To Our Newsletter</h2>
+                        <p class="subscribeParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Scelerisque duis ultrices
+                            sollicitudin aliquam
+                            sem. Scelerisque dui ultrices sollicitudin.</p>
+                        <form class="form-inline subscribeForm justify-content-center py-3">
+                            <input type="email" class=" subscribeInput mr-3" placeholder="michael@ymail.com">
+                            <p id="errorMsg"></p>
+                            <button type="submit" class="subscribeBtn">Subscribe Now</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="/images/Subscribe image lift.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer section -->
+    <div class="footeLine"></div>
+    <footer class="text-center text-lg-start">
+        <div class="container p-2">
+            <div class="row">
+                <div class="footerLogo col-lg-4 col-md-12 mb-4">
+                    MHA
+                </div>
+                <div class="footerMenu col-lg-8 col-md-12 mb-4">
+                    <ul class="  list-unstyled d-flex justify-content-end">
+                        <li class="mx-3"><a href="#!" class="">Support Center</a></li>
+                        <li class="mx-3"><a href="#!" class="">Invoicing</a></li>
+                        <li class="mx-3"><a href="#!" class="">Contract</a></li>
+                        <li class="mx-3"><a href="#!" class="">Careers</a></li>
+                        <li class="mx-3"><a href="#!" class="">Blog</a></li>
+                        <li class="mx-3"><a href="#!" class="">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center footerParagaraph">
+                <p>Copyright © 2022 Xpro. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- End Home page -->
+    <script src="product.js"></script>
+
+    <!-- Before closing </body> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+
+    <!-- Splide JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/js/splide.min.js"></script>
+    <!-- model -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

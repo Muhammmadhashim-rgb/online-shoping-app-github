@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- styleling -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="signIn.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- silck libariry -->
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- Slick Carousel JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <!-- /???? -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- signInSection -->
+
+
+</head>
+
+<body>
+
+
+
+    <div class="signInPage">
+        <div class="container">
+            <div class="row signRow">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="/images/Sign In image.png" alt="">
+                </div>
+                <div class="col-md-6 signInCol">
+                    <div class=" login-container">
+                        <h1 class="signInHeading">MHA</h1>
+
+                        <h4 class="mb-4 fw-bold">Sign In To MHA</h4>
+                        <div class="row  g-5 mb-3">
+                            <div class="col-6">
+                                <button class="social-btn">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
+                                        width="20" />
+                                    Sign up with Google
+                                </button>
+                            </div>
+                            <div class="col-6">
+                                <button class="social-btn">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="20" />
+                                    Sign up with Email
+                                </button>
+                            </div>
+                        </div>
+
+
+                        <div class="divider"><span>OR</span></div>
+
+                        <form id="form">
+                            <input id="email" type="email" class="form-control" placeholder="Email">
+                            <p id="emailValidation"></p>
+                            <input id="password" type="password" class="form-control" placeholder="Password">
+                            <p id="passwordValidation"></p>
+                            <button id="submit" type="submit" class=" btn-signin mt-2">Sign In</button>
+                        </form>
+
+                        <div class="d-grid mt-3">
+                            <a href="/signUp page/signUp.html" class=" btn-outline-custom text-primary fw-semibold">Register Now</a>
+                        </div>
+
+                        <div class="forgot-password mt-2">
+                            <a href="/forget password page/forget password.html" class="text-primary">Forget Password?</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="signIn.js"></script>
+</body>
+
+
+</html>

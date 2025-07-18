@@ -1,0 +1,156 @@
+        .login-container {
+            max-width: 35rem;
+            margin: 50px auto;
+        }
+
+        #emailValidation {
+            color: red;
+            font-family: Poppins;
+            font-size: 0.8rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            margin-top: 0.5rem;
+        }
+
+        #passwordValidation {
+            color: red;
+            font-family: Poppins;
+            font-size: 0.8rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            margin-top: 0.5rem;
+        }
+
+
+        .signInHeading {
+            color: #484848;
+            font-family: Volkhov;
+            font-size: 3.5rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+
+        }
+
+        h4 {
+            color: #484848;
+            font-family: Volkhov;
+            font-size: 1.7rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px;
+            margin-top: 1.2rem;
+
+        }
+
+        .btn-google,
+        .btn-email {
+            border: 1px solid #ced4da;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .btn-google img,
+        .btn-email img {
+            height: 20px;
+        }
+
+        .divider {
+            text-align: center;
+            margin: 30px 0;
+            position: relative;
+        }
+
+        .divider::before,
+        .divider::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 40%;
+            height: 1px;
+            background-color: #aaa;
+        }
+
+        .divider::before {
+            left: 0;
+        }
+
+        .divider::after {
+            right: 0;
+        }
+
+        .divider span {
+            background-color: #fff;
+            padding: 0 10px;
+            font-weight: 600;
+            color: #444;
+        }
+
+        .form-control {
+            border: none;
+            border-bottom: 1px solid #ccc;
+            border-radius: 0;
+            margin-bottom: 20px;
+        }
+
+        .btn-signin {
+            background-color: #000;
+            color: #fff;
+            width: 100%;
+            border-radius: 7px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            font-weight: 600;
+            border: none;
+        }
+
+        .btn-outline-custom {
+            border: 1px solid #ced4da;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            padding: 0.6rem 0rem;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .register-now {
+            margin-top: 15px;
+        }
+
+        .register-now a,
+        .forgot-password a {
+            font-weight: 500;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .forgot-password {
+            text-align: right;
+        }
+
+        .social-btn {
+            border: 1px solid #204e8a;
+            border-radius: 8px;
+            padding: 7px 11px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 14px;
+            background-color: white;
+            transition: all 0.2s;
+        }
+
+        .social-btn:hover {
+            background-color: #f9f9f9;
+        }
+
+        .signRow {
+            margin: 3rem 0rem;
+        }

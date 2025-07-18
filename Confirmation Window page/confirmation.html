@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- styleling -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="confirmation.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- silck libariry -->
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- Slick Carousel JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <!-- /???? -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- signUpSection -->
+
+</head>
+
+<body>
+    <div class="signUpSection">
+        <div class="container signUpContainer">
+            <div class="row g-5 signUprow">
+                <div class="col-md-6">
+                    <div class="signUpimge">
+                        <img class="img-fluid" src="/images/Confirmation Window image.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col2 ">
+                    <div class="form-wrapper">
+                        <h1>MHA</h1>
+                        <h2>Enter The Confirmation Code</h2>
+
+
+
+                        <form id="form">
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <input id="confirmationCode" type="number" class="form-control" placeholder="Confirmation Code" />
+                                    <p id="confirmationCodeValidationShow"></p>
+                                </div>
+                            </div>
+
+
+                            <button id="btn" type="submit" class="signBtn">Create Account</button>
+                            <h3 class="login-text">
+                                Didn’t receive Confirmation Code? <a href="#">Resend Now</a>
+                            </h3>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="confirmation.js"></script>
+</body>
+
+</html>
